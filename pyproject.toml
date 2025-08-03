@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "testtasknoxer"
+version = "0.1.0"
+description = ""
+authors = ["samypushisty <pomidorik228@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.1.1"
+pydantic = "^2.11.7"
+pydantic-settings = "^2.10.1"
+sqlalchemy = "^2.0.42"
+psycopg2-binary = "^2.9.10"
+requests = "^2.32.4"
+waitress = "^3.0.2"
+apscheduler = "^3.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
